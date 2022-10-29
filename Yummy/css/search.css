@@ -1,0 +1,16 @@
+.search-input{
+    position: fixed;
+    top: 0;
+    left: 13%;
+    z-index: 6655;
+    background-color: #0D0D0D;
+}
+.search-input input{
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+.search-input input::placeholder{
+    text-align: center;
+}

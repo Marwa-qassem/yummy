@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: #1e202b;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #212529;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #000000f2;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+#sideBox{
+    height: 100vh;
+    width: 60px;
+    background-color: #f8f6f6;
+    position: fixed;
+    z-index: 88888;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+#outerBox{
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;    
+    transform: translatex(-80%);
+    z-index: 88888;
+}
+#innerBox{
+    width: 80%;
+}
+.nav-item,
+.side-bar-logo{
+    padding-top: 25px;
+}
+.side-bar-toggle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.side-bar-toggle i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.sidebar-social-icon{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate( -50%);
+}
+.sidebar-social-icon i{
+    padding: 5px 0 0 0;
+}
+.side-bar-footer{
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #999;
+}
+.inner-social-icon{
+    margin-bottom: 15px;
+}
+.inner-social-icon i{
+    padding: 5px 10px;
+    color: #212529;
+}
+.home-meal{
+    cursor: pointer;
+} 
+.over-lay{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    width: 100%;
+    height: 100%;
+    color: #000;
+    transition: all ease .9s;
+}
+.home-meal:hover .over-lay{
+    top: 0;
+}
+
+
+.recipesContents{
+    color: #155724;
+    width: fit-content;
+    padding: 5px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-radius: 5px;
+}
+.taglist p{
+    color: #721c24;
+    width: fit-content;
+    padding: 5px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: 5px;
+}
+#youtube{
+    background-color: #f70000;
+    border-color: #f70000;
+    color: #fff;
+}
+#source{
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
